@@ -51,8 +51,8 @@ module.exports = {
 					presets: [require.resolve('babel-preset-react-app')],
 					plugins: [
 						require.resolve('react-refresh/babel'),
-						// // for component highlighting in preview.
-						// [require.resolve('@teambit/react.babel.bit-react-transformer'), { componentFilesPath: fileMapPath }],
+						// bug be here:
+						[require.resolve('@teambit/react.babel.bit-react-transformer'), { componentFilesPath: fileMapPath }],
 					],
 				},
 			},
